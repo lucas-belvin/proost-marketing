@@ -1,0 +1,32 @@
+{
+  "title": "Proost - Effective meetings",
+  "palette": "green",
+  "header": {
+    "title": "Proost",
+    "logo_img": "branding/logo-small.png",
+    "has_nav": false,
+    "menu": {
+      "actions": [
+        {
+          "label": "Try for free",
+          "url": "/learn-more"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "logo_img": "branding/logo-small.png",
+    "tagline": "Effective meetings",
+    "has_nav": true,
+    "nav_title": "Company",
+    "has_social": false,
+    "social_title": "Community",
+    "has_subscribe": true,
+    "subscribe_title": "Subscribe",
+    "subscribe_content": "Stay up to date with our latest developments.",
+    "content": "&copy; Stackbit. All rights reserved.",
+    "links": [
+
+    ]
+  }
+}

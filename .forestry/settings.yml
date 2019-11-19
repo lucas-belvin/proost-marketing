@@ -1,0 +1,41 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: static/admin
+webhook_url: https://api.stackbit.com/project/5dcf53c16f7612001b29313c/webhook/forestry
+sections:
+- type: document
+  path: site-metadata.json
+  label: Global Site Config
+  templates:
+  - config
+- type: document
+  path: src/data/social.json
+  label: Social Links
+  templates:
+  - social
+- type: directory
+  path: src/pages
+  label: Page
+  create: all
+  match: "**/*"
+  exclude: "{posts/**,blog/index.md}"
+  templates:
+  - landing
+  - page
+- type: document
+  path: src/data/menus.json
+  label: Site Menus
+  templates:
+  - site_menus
+upload_dir: static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_output_directory: public
+  install_dependencies_command: npm install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  instant_preview_command: npm run forestry:preview
