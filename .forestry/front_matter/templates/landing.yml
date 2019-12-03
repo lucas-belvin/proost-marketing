@@ -30,7 +30,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/pricing.md
-- src/pages/index.md
-- src/pages/features.md
 - src/pages/contact.md
+- src/pages/index.md
