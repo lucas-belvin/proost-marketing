@@ -9,7 +9,7 @@ Proost authenticates with Google to get access to your calendar and authenticate
 
 In preparation for a meeting, Proost: 
 
-1. Creates a private slack channel before the meeting starts that adds all attendees from your organization to the channel
+1. Creates a private Slack channel before the meeting starts that adds all attendees from your organization to the channel
 2. Creates a Google document specifically for meeting notes and shares it on the Slack channel
 
 During the meeting, Proost:
