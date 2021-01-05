@@ -12,7 +12,7 @@
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
     "aos": "^2.3.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "chart.js": "^2.9.1",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",
